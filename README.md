@@ -1,5 +1,22 @@
 DS-3FeaturesClassification
 
+# Build a classifier model using the given dataset to predict the target classes. 
+This is a small and straightforward test developed by HIAE to check the basics of
+machine learning.
+
+Instructions
+1. Choose your programming language of interest: R or Python;
+2. Your results can be presented in any format. We suggest using a Jupyter
+Notebook (for Python users) or RMarkDown (for R users);
+3. Add comments to the main steps of your code (in English);
+4. Consider that the results will be presented for a non-technical audience so
+try to emphasize the results of your work in a clear manner.
+
+
+- 1 Choose two different models of your choice to solve the problem;
+- 2 Give a brief explanation of why you picked them;
+- 3 Compare and argue over the results of the models.
+
 # HOW TO RUN THIS PROJECT:
 You can run this project on Google Colab, or run in your system.
 
@@ -25,9 +42,3 @@ In miniconda terminal you can install, activate or close environment to run this
 
 ## Deactivate environment to close project:
     $ conda deactivate
-
-# Build a classifier model using the given dataset to predict the target classes. 
-
-- 1 Choose two different models of your choice to solve the problem;
-- 2 Give a brief explanation of why you picked them;
-- 3 Compare and argue over the results of the models.
