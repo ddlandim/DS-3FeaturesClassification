@@ -1,1 +1,33 @@
 DS-3FeaturesClassification
+
+# HOW TO RUN THIS PROJECT:
+You can run this project on Google Colab, or run in your system.
+
+In this notebook file you can run notebook_import_variables() to load all env variables, dataframes, scalers and another data, in any cell, to avoid re-run entire notebook to obtain data.
+
+(Jupyter_notebook_file)[3FeaturesClassification.ipynb]
+
+## System-requirements
+ - Miniconda terminal
+
+In miniconda terminal you can install, activate or close environment to run this project.
+
+**Open a miniconda terminal in project root folder to do the following steps:**
+
+## Environment install (dont need to do, if you already downloaded env folder on project root)
+    $ conda create --prefix ./env pandas numpy matplotlib scikit-learn seaborn tensorflow pytorch jupyter statsmodels xlrd dill
+
+## Activate this environment to run this project:
+    $ conda activate .\env
+
+### After activate conda env, you can install and do another conda commands:
+    $ conda install statsmodels
+
+## Deactivate environment to close project:
+    $ conda deactivate
+
+# Build a classifier model using the given dataset to predict the target classes. 
+
+- 1 Choose two different models of your choice to solve the problem;
+- 2 Give a brief explanation of why you picked them;
+- 3 Compare and argue over the results of the models.
